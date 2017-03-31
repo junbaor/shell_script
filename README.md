@@ -1,2 +1,4 @@
 # shell_script
-一键安装 shadowsocks，支持 chacha20 加密方式
+
+> 如果不能执记记得加权限
+chmod 777 filename
