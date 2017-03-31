@@ -43,5 +43,6 @@ echo 'shadowsocks 服务已启动'
 sleep 3
 touch /etc/rc.local
 echo $start_cmd >> /etc/rc.local
+chmod 755 rc.local
 
 echo "安装成功,已加入开机自启,端口:$port 密码:$password 加密方式:$encrypt"
