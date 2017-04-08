@@ -12,7 +12,7 @@ chmod 777 filename
 curl -fsSL "https://raw.githubusercontent.com/junbaor/shell_script/master/shadowsocks.sh" | /bin/sh
 ```
 
-支持 chacha20:
+支持 chacha20
 ```
 curl -fsSL "https://raw.githubusercontent.com/junbaor/shell_script/master/shadowsocks-chacha20.sh" | /bin/sh
 ```
