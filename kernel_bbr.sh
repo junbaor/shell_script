@@ -12,4 +12,6 @@ dpkg -i linux-headers-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
 
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
-echo '重启后生效'
+echo '10s 后重启生效'
+sleep 10
+reboot
