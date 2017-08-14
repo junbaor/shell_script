@@ -8,6 +8,7 @@ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-image-4.12.6-04
 
 dpkg -i *.deb
 
+cd ..
 rm -rf temp-kernel
 
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
