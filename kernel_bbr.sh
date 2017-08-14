@@ -6,9 +6,7 @@ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-headers-4.12.6-
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-headers-4.12.6-041206-generic_4.12.6-041206.201708111232_amd64.deb
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-image-4.12.6-041206-generic_4.12.6-041206.201708111232_amd64.deb
 
-dpkg -i linux-image-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
-dpkg -i linux-headers-4.10.0-041000_4.10.0-041000.201702191831_all.deb
-dpkg -i linux-headers-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
+dpkg -i *.deb
 
 rm -rf temp-kernel
 
