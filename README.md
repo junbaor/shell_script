@@ -14,7 +14,7 @@ curl "https://raw.githubusercontent.com/junbaor/shell_script/master/shadowsocks.
 curl "https://raw.githubusercontent.com/junbaor/shell_script/master/shadowsocks-chacha20.sh" | /bin/sh
 ```
 
-更换 4.10 内核开启 BBR
+更换 v4.12.6 内核开启 BBR
 ```
 curl "https://raw.githubusercontent.com/junbaor/shell_script/master/kernel_bbr.sh" | /bin/sh
 ```
