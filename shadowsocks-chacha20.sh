@@ -4,15 +4,13 @@
 install_home="/etc/shadowsocks/" # 安装目录
 port=888;                        # 端口
 password="password"              # 密码
-encrypt="chacha20"               # 加密方式
+encrypt="chacha20-ietf-poly1305"               # 加密方式
 ####################################
 
 rm -rf $install_home
 mkdir -p $install_home
 
 apt update
-apt upgrade -y
-apt autoremove -y
 
 apt install -y python-pip git gcc g++ make
 pip install --upgrade pip
@@ -31,9 +29,9 @@ cat > $install_home/config.json <<EOF
 }
 EOF
 
-wget https://github.com/jedisct1/libsodium/releases/download/1.0.12/libsodium-1.0.12.tar.gz
-tar zxvf libsodium-1.0.12.tar.gz
-cd libsodium-1.0.12
+wget https://github.com/jedisct1/libsodium/releases/download/1.0.13/libsodium-1.0.13.tar.gz
+tar zxvf libsodium-1.0.13.tar.gz
+cd libsodium-1.0.13
 ./configure
 make && make install && ldconfig
 
