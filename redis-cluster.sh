@@ -1,5 +1,5 @@
 apt update
-apt install gcc make ruby
+apt install gcc make ruby -y
 gem install redis
 
 wget http://download.redis.io/releases/redis-4.0.1.tar.gz
