@@ -1,6 +1,6 @@
 # shell_script
 
-> 暂只支持 Ubuntu , Vultr 和 Google Cloud 主机 Ubuntu 16 测试通过
+> 暂只支持 Ubuntu , Vultr / Google Cloud / Aliyun /AlibabCloud 主机 Ubuntu 16 测试通过
 
 ### 使用方式：
 
