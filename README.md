@@ -1,6 +1,6 @@
 # shell_script
 
-> 暂只支持 Ubuntu , Vultr、Google Cloud、AlibabCloud (国际版) 主机 Ubuntu 16 测试通过
+> 本仓库只作自己使用, 未过多考虑环境信息, 暂只支持 Ubuntu , Vultr、Google Cloud、AlibabCloud (国际版) 主机 Ubuntu 16 测试通过
 
 ### 使用方式：
 
