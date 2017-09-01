@@ -19,6 +19,11 @@ curl "https://raw.githubusercontent.com/junbaor/shell_script/master/shadowsocks-
 curl "https://raw.githubusercontent.com/junbaor/shell_script/master/kernel_bbr.sh" | /bin/sh
 ```
 
+编译安装 nginx (使用最新版openssl zlib pcre 开启 http_ssl_module http_v2_module)
+```
+curl "https://raw.githubusercontent.com/junbaor/shell_script/master/nginx.sh" | /bin/sh
+```
+
 单机安装 redis-cluster
 ```
 curl "https://raw.githubusercontent.com/junbaor/shell_script/master/redis-cluster.sh" | /bin/sh
