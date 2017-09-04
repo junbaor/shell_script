@@ -4,6 +4,7 @@
 
 ### 使用方式：
 
+#### Ubuntu
 简单安装
 ```
 curl "https://raw.githubusercontent.com/junbaor/shell_script/master/shadowsocks.sh" | /bin/sh
@@ -27,4 +28,10 @@ curl "https://raw.githubusercontent.com/junbaor/shell_script/master/nginx.sh" | 
 单机安装 redis-cluster
 ```
 curl "https://raw.githubusercontent.com/junbaor/shell_script/master/redis-cluster.sh" | /bin/sh
+```
+
+#### centos
+shadowsocks 加密方式 chacha20-ietf-poly1305
+```
+curl "https://raw.githubusercontent.com/junbaor/shell_script/master/centos-shadowsocks.sh" | /bin/sh
 ```
