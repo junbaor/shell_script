@@ -13,7 +13,7 @@ systemctl disable firewalld
 rm -rf $install_home
 mkdir -p $install_home
 
-yum -y update
+yum update -y
 
 yum -y install epel-release
 yum install -y python-pip git gcc gcc-c++ make
