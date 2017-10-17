@@ -2,9 +2,9 @@
 
 mkdir temp-kernel && cd temp-kernel
 
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-headers-4.12.6-041206_4.12.6-041206.201708111232_all.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-headers-4.12.6-041206-generic_4.12.6-041206.201708111232_amd64.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.6/linux-image-4.12.6-041206-generic_4.12.6-041206.201708111232_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.13.7/linux-headers-4.13.7-041307_4.13.7-041307.201710141430_all.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.13.7/linux-headers-4.13.7-041307-generic_4.13.7-041307.201710141430_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.13.7/linux-image-4.13.7-041307-generic_4.13.7-041307.201710141430_amd64.deb
 
 dpkg -i *.deb
 
