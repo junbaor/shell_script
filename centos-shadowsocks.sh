@@ -33,9 +33,9 @@ cat > $install_home/config.json <<EOF
 }
 EOF
 
-wget https://github.com/jedisct1/libsodium/releases/download/1.0.13/libsodium-1.0.13.tar.gz
-tar zxvf libsodium-1.0.13.tar.gz
-cd libsodium-1.0.13
+wget https://github.com/jedisct1/libsodium/releases/download/1.0.15/libsodium-1.0.15.tar.gz
+tar zxvf libsodium-1.0.15.tar.gz
+cd libsodium-1.0.15
 ./configure
 make && make install 
 
